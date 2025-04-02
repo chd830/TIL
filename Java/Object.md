@@ -8,6 +8,17 @@ if(obj instsance of Dog dog) {
 }
 ```
  obj 를 Dog의 dog로 자동 다운캐스팅
+#### toString
+Object 에서 기본적으로 제공
+```java
+
+System.out.println(obj);
+System.out.println(obj.toString()); // 기본적으로 제공되기 때문에 toString을 입력할 필요X
+println(Object obj) {
+	return object.getClassName()+"@"+System.identityHashCode(obj);
+}
+```
+
 #### 객체의 참조값
 ```java
 System.identityHashCode(object);
