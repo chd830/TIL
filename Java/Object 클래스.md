@@ -24,3 +24,6 @@ println(Object obj) {
 System.identityHashCode(object);
 System.out.println(Integer.toHexString(System.identityHashCode(object)));
 ```
+
+#### 정적 의존관계 vs 동적 의존관계
+ 
