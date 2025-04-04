@@ -25,5 +25,10 @@ System.identityHashCode(object);
 System.out.println(Integer.toHexString(System.identityHashCode(object)));
 ```
 
-#### 정적 의존관계 vs 동적 의존관계
- 
+## equals()
+##### Identity(동일성)
+완전히 같음을 의미
+== 연산자를 사용해서 두 객체의 참조가 동일한 객체를 가리키고 있는지 확인
+##### Equality(동등성)
+같은 가치나 수준을 의미하지만 형태나 외관이 같이 않음
+equals() 메서드를 사용하여 두 객체가 논리적으로 동등한지 확인
